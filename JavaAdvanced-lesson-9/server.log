@@ -1,0 +1,39 @@
+2022-04-07 20:31:52 ERROR BucketDaoImpl:43 - java.sql.SQLException: test
+2022-04-07 20:32:40 ERROR BucketDaoImpl:43 - java.sql.SQLException
+2022-04-07 20:33:47 ERROR BucketDaoImpl:43 - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`shop`.`bucket`, CONSTRAINT `user_id_FK` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT)
+2022-04-07 21:44:41 ERROR UserServiceImpl:23 - java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/shop
+2022-04-07 21:54:35 ERROR UserServiceImpl:23 - java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/shop
+2022-04-07 22:07:02 ERROR UserDaoImpl:49 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.email'
+2022-04-07 22:22:57 ERROR UserDaoImpl:49 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'user.email'
+2022-04-07 22:30:36 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-07 22:30:40 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:09:16 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:09:18 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:13:35 ERROR UserDaoImpl:49 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123' for key 'user.email'
+2022-04-13 00:13:58 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:17:22 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:17:26 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:17:29 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:17:33 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:17:36 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-13 00:18:18 ERROR UserDaoImpl:49 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123' for key 'user.email'
+2022-04-13 01:51:49 ERROR UserDaoImpl:49 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'email' for key 'user.email'
+2022-04-13 01:51:49 ERROR UserDaoImpl:49 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'email' for key 'user.email'
+2022-04-13 01:52:02 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-16 23:44:22 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 17:40:46 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 18:08:48 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 19:11:13 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 19:26:38 ERROR ProductDaoImpl:46 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 19:27:49 ERROR ProductDaoImpl:46 - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'price' at row 1
+2022-04-17 19:27:49 ERROR ProductDaoImpl:46 - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'price' at row 1
+2022-04-17 19:46:30 ERROR ProductDaoImpl:46 - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'price' at row 1
+2022-04-17 19:46:30 ERROR ProductDaoImpl:46 - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'price' at row 1
+2022-04-17 20:45:14 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 20:45:16 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 20:45:19 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 20:45:24 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 20:49:38 ERROR ProductDaoImpl:46 - java.sql.SQLException: Operation not allowed after ResultSet closed
+2022-04-17 20:56:53 ERROR ProductDaoImpl:46 - java.sql.SQLException: No value specified for parameter 2
+2022-04-17 21:04:38 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
+2022-04-17 21:07:03 ERROR UserDaoImpl:146 - java.sql.SQLException: Illegal operation on empty result set.
